@@ -8,8 +8,8 @@ app.get("/", (req, res) => {
 app.get("/a", (req, res) => {
   res.send("<h1>Hello World!</h1>");
 });
-app.get("/chat", (req, res) => {
-  res.redirect("https://chatgpt.com/c/6873a277-ebe0-800b-a217-849b5ebe39ae");
+app.get("/faceBook", (req, res) => {
+  res.json({"name":"Deep Guchhait","reg":34042723017});
 });
 const port = process.env.PORT || 3000;
 app.listen(port);
